@@ -1,8 +1,8 @@
 close all
 clear
 clc
-a = 1;
-b = 0.5;
+a = 2;
+b = 0.1;
 N = 1024;
 t = linspace(0,10,N);
 x = b.^(a*abs(t));

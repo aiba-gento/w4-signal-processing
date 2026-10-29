@@ -1,8 +1,8 @@
 close all
 clear
 clc
-a = 1;
-omega = 2*pi;
+a = 2;
+omega = pi;
 N = 1024;
 t = linspace(0,10,N);
 x = exp(-a*t).*sin(omega*t);
